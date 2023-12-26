@@ -1,15 +1,13 @@
-import { useState } from 'react'
-import NavBar from './components/NavBar/NavBar'
-import ItemListConteiner from './components/ItemListConteiner/ItemListConteiner'
-import './App.css'
+import ItemListConteiner from './components/ItemListConteiner/ItemListConteiner.jsx'
+import NavBar from './components/NavBar/NavBar.jsx'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
       <div>
-        <p>DALE QUE VA</p>
+        <NavBar/>
+        <ItemListConteiner/>
       </div>
     </>
   )
