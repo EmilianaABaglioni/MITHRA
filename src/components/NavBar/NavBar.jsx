@@ -1,24 +1,25 @@
 import CartWidget from '../CartWidget/CartWidget.jsx';
-import logo from './LOGO-MITHRA.png';
+import logo from '../../../public/MITHRALOGO.png';
+import "./NavBar.css";
+
 
 function NavBar (){
     return (
         <>
-            <div>
+            <div className='navbar'>
                 <div className='logo'>
                     <img src={logo} alt="logo" />
                 </div>
-                <div>
-                     VER TODOS LOS PRODUCTOS
+                <br/>
+                <div className='products'>
+                    {/* hacer list de productos */}
+                    - Productos
                 </div>
-                <div>
-                    SALE
+                <div className='sizechart'>
+                    Tabla de talles
                 </div>
-                <div>
-                    TABLA DE TALLES
-                </div>
-                <div>
-                    <CartWidget/>
+                <div className='cartwidget'>
+                    <CartWidget/>  
                 </div>
             </div>
         </>

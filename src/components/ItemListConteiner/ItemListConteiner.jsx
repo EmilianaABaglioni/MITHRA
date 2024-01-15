@@ -1,18 +1,19 @@
 import "./ItemListConteiner.css";
 import PropTypes from 'prop-types';
 
-function ItemListConteiner ({productos}){
+
+function ItemListConteiner (props){
     return (
         <>
-            <div>
-                {productos}
+             <div>
+                <ul>{props.product}</ul>
             </div>
         </>
     )
 };
 
 ItemListConteiner.propTypes = {
-    productos: PropTypes.string.isRequired
+    product: PropTypes.string.isRequired
 }
 
 export default ItemListConteiner;
