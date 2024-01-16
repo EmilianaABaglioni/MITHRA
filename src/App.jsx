@@ -1,16 +1,8 @@
-import ItemListConteiner from './components/ItemListConteiner/ItemListConteiner.jsx'
-import NavBar from './components/NavBar/NavBar.jsx'
+import Home from "./pages/Home/Home";
 
 function App() {
 
-  return (
-    <>
-      <div>
-        <NavBar/>
-        <ItemListConteiner/>
-      </div>
-    </>
-  )
+  return <Home/>
 }
 
 export default App

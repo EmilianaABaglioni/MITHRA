@@ -1,5 +1,5 @@
 import CartWidget from '../CartWidget/CartWidget.jsx';
-import logo from '../../../public/MITHRALOGO.png';
+import logo from '../../../public/mithralogo.png';
 import "./NavBar.css";
 
 
@@ -13,12 +13,13 @@ function NavBar (){
                 <br/>
                 <div className='products'>
                     {/* hacer list de productos */}
-                    - Productos
+                    Productos
                 </div>
                 <div className='sizechart'>
                     Tabla de talles
                 </div>
                 <div className='cartwidget'>
+                    {/* agregar contador de carrito */}
                     <CartWidget/>  
                 </div>
             </div>

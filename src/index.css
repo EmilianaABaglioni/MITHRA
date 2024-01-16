@@ -1,4 +1,6 @@
 * {
+    box-sizing: border-box;
     background-color: #fdfcf8;
     font-family: 'Montserrat', sans-serif;
 }
+

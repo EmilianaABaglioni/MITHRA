@@ -1,4 +1,4 @@
-import "./ItemListConteiner.css";
+import style from "./ItemListConteiner.module.scss";
 import PropTypes from 'prop-types';
 
 
