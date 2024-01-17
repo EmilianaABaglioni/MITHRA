@@ -1,28 +1,42 @@
 import CartWidget from '../CartWidget/CartWidget.jsx';
-import logo from '../../../public/mithralogo.png';
-import "./NavBar.css";
+import Logo from '../Logo/Logo.jsx'
+import styles from './Styles/NavBar.module.scss';
 
 
 function NavBar (){
     return (
         <>
-            <div className='navbar'>
-                <div className='logo'>
-                    <img src={logo} alt="logo" />
+            <Logo/>
+
+            <div className={styles.navbar}>
+
+                <div className={styles.products}>
+                     PRODUCTOS
                 </div>
-                <br/>
-                <div className='products'>
-                    {/* hacer list de productos */}
-                    Productos
+
+                <div className={styles.boxlogin}> 
+                    <div className={styles.login}>
+                    CREAR CUENTA
+                    </div>
+
+                    <span>|</span>
+
+                    <div className={styles.createacount}>
+                    INICIAR SESION
+                    </div>
                 </div>
-                <div className='sizechart'>
-                    Tabla de talles
+                
+                {/*display: none - se renderiza una vez que se inicia sesion*/}
+                <div className={styles.profile}>
+                    MI PERFIL
                 </div>
-                <div className='cartwidget'>
-                    {/* agregar contador de carrito */}
+
+                <div className={styles.cartwidget}>
                     <CartWidget/>  
                 </div>
+
             </div>
+
         </>
     )
 };

@@ -1,0 +1,31 @@
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    margin-left: 10%;
+    margin-right: 10%;
+
+        div {
+        margin: 10px;
+        }
+
+        .boxlogin {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            font-size: 15px;
+            font-weight: bold;  
+
+                span {
+                    font-weight: bold;
+                }
+        }
+
+        .profile {
+            display: none;
+        }
+} 
+
+
+
