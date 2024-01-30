@@ -2,7 +2,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 18px;
     margin-left: 10%;
     margin-right: 10%;
 
@@ -25,6 +24,17 @@
         .profile {
             display: none;
         }
+
+        .categories {
+            text-transform: uppercase;
+
+                .linkcategory {
+                    font-size: 14px;
+                    padding: 0 10px;
+                    text-decoration: none;
+                    color: black;
+                }
+        }   
 } 
 
 
