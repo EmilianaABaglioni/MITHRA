@@ -4,9 +4,12 @@ import ItemListContainer from "../../components/ItemListContainer/ItemListContai
 
 const Home = () => {
     return (
-        <Dashboard>
-            <ItemListContainer/>
-        </Dashboard>
+        <>
+            <Dashboard>
+                <ItemListContainer />
+            </Dashboard>
+        </>
+
     );
 };
 
